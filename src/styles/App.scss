@@ -1,0 +1,74 @@
+.container{
+    width: 50%;
+    height: 50%;
+    border: 1px solid #111;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+header.headerOfContainer:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.headerOfContainer{
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.innerContainer{
+    height: 100%;
+}
+
+.calculationToolsContainer {
+    height: 20%;
+    /* padding-left: 40%; */
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.minusButton {
+    color: #fff;
+    background: red;
+    height: 30px;
+    width: 30px;
+}
+
+input.inputField {
+    width: 15%;
+    text-align: center;
+    height: 19px;
+}
+
+button.plusButton {
+    color: #fff;
+    background: green;
+    height: 30px;
+    width: 30px;
+}
+
+.containerForResetButton {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.resetButton {
+    background-color: #2196f3;
+    color: #fff;
+}
