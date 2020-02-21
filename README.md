@@ -22,4 +22,4 @@ npm start
 
 ## To build it:
 
-npm run build# react-redux-sample-app
+npm run build
